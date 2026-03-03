@@ -9,7 +9,7 @@ class MyRunnable implements Runnable {
 
     public static void main(String[] args) {
         MyRunnable obj = new MyRunnable();
-        Thread t = new Thread(obj);   // Pass runnable object
+        Thread t = new Thread(obj); 
         t.start();
 
         for(int i = 1; i <= 5; i++) {
